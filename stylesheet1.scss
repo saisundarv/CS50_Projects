@@ -1,3 +1,4 @@
+$font_size:14px;
 %font_family
 {
   font-family: verdana,courier;
@@ -16,18 +17,24 @@ ol {
   
   div {
   @extend %font_family;
-    font-size: 12px;
+    font-size: $font_size;
   color: cynan; 
+  th{
+    border: 5px solid brown;
+  }
+  td{
+    border: 3px solid green;
+  }
   }
   
   p{
-    font-size: 10px;
+    font-size: $font_size;
   @extend %font_family;
   color: green; 
   }
   
   H3{
-    font-size: 14px;
+    font-size: $font_size;
 	@extend %font_family;
   color: yellow; 
   }
@@ -39,7 +46,7 @@ ol {
   }
   
   td{
-    font-size: 14px;
+    font-size: $font_size;
 	@extend %font_family;
 	color: blue; 
   }
