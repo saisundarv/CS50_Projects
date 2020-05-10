@@ -1,0 +1,40 @@
+ul, ol, div, p, H3, th, td, body {
+  font-family: verdana,courier;
+  border: 1px solid blue; }
+
+ul {
+  font-size: 14px;
+  color: red; }
+
+ol {
+  font-size: 18px;
+  color: purple; }
+
+div {
+  font-size: 14px;
+  color: cynan; }
+  div th {
+    border: 5px solid brown; }
+  div td {
+    border: 3px solid green; }
+
+p {
+  font-size: 14px;
+  color: green; }
+
+H3 {
+  font-size: 14px;
+  color: yellow; }
+
+th {
+  font-size: 16px;
+  color: Pink; }
+
+td {
+  font-size: 14px;
+  color: blue; }
+
+body {
+  background-color: powderblue; }
+
+/*# sourceMappingURL=stylesheet1.css.map */
