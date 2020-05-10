@@ -2,7 +2,9 @@ $font_size:14px;
 %font_family
 {
   font-family: verdana,courier;
-  border: 1px solid blue;
+  cellspacing:8px;
+  padding: 3px;
+  margin: 2px;
 }
 
 ul {
@@ -41,13 +43,15 @@ ol {
   
   th{
   @extend %font_family;
-    font-size: 16px;
+    font-size: 18px;
+	border: 5px solid Red;
 	color: Pink; 
   }
   
   td{
     font-size: $font_size;
 	@extend %font_family;
+	border: 5px solid Orange;
 	color: blue; 
   }
   body {
